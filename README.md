@@ -1,9 +1,3 @@
----
-title: README
-updated: 2023-06-06 16:52:10Z
-created: 2023-06-04 01:30:17Z
----
-
 # B.E.R.T. (Beet Electronic Remote watering Technology)
 
 This is the documentation of my little project, which is thought to help to reduce the amount of water for keeping a beet alive. It also makes the maintenance way easier.
