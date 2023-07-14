@@ -1,0 +1,673 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "pico_sdk_init.cmake"
+		},
+		{
+			"path" : "pico_sdk_version.cmake"
+		},
+		{
+			"path" : "cmake/pico_utils.cmake"
+		},
+		{
+			"path" : "cmake/pico_pre_load_platform.cmake"
+		},
+		{
+			"path" : "cmake/preload/platforms/rp2040.cmake"
+		},
+		{
+			"path" : "cmake/preload/platforms/pico/pico.cmake"
+		},
+		{
+			"path" : "cmake/pico_pre_load_toolchain.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/build/CMakeFiles/3.25.3/CMakeSystem.cmake"
+		},
+		{
+			"path" : "cmake/preload/toolchains/pico_arm_gcc.cmake"
+		},
+		{
+			"path" : "cmake/preload/toolchains/find_compiler.cmake"
+		},
+		{
+			"path" : "cmake/preload/toolchains/set_flags.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/build/CMakeFiles/3.25.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/build/CMakeFiles/3.25.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/build/CMakeFiles/3.25.3/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"path" : "cmake/Platform/PICO.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"path" : "cmake/Platform/PICO.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "cmake/Platform/PICO.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "src/common/pico_base/generate_config_header.cmake"
+		},
+		{
+			"path" : "src/common/pico_base/include/pico/version.h.in"
+		},
+		{
+			"path" : "tools/CMakeLists.txt"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "src/board_setup.cmake"
+		},
+		{
+			"path" : "src/boards/generic_board.cmake"
+		},
+		{
+			"path" : "src/rp2040.cmake"
+		},
+		{
+			"path" : "src/rp2_common.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "src/common/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/boot_picoboot/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/boot_uf2/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_base/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_usb_reset_interface/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_bit_ops/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_binary_info/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_divider/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_sync/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_time/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_util/CMakeLists.txt"
+		},
+		{
+			"path" : "src/common/pico_stdlib/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_base/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_claim/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_adc/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_clocks/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_dma/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_divider/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_exception/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_flash/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_gpio/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_i2c/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_interp/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_irq/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_pio/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_pll/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_pwm/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_resets/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_rtc/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_spi/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_sync/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_timer/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_uart/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_vreg/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_watchdog/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/hardware_xosc/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_bootrom/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_platform/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/boot_stage2/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "src/rp2_common/pico_bootsel_via_double_reset/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_multicore/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_unique_id/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_bit_ops/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_divider/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_double/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_int64_ops/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_flash/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_float/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_mem_ops/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_malloc/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_printf/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_rand/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_stdio/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_stdio_semihosting/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_stdio_uart/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/cmsis/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/tinyusb/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_stdio_usb/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_i2c_slave/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_async_context/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_btstack/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_cyw43_driver/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_lwip/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_cyw43_arch/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_mbedtls/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_stdlib/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_cxx_options/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_standard_link/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_fix/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_fix/rp2040_usb_device_enumeration/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2_common/pico_runtime/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2040/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2040/hardware_regs/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rp2040/hardware_structs/CMakeLists.txt"
+		},
+		{
+			"path" : "test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/pico_test/CMakeLists.txt"
+		},
+		{
+			"path" : "test/pico_stdlib_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject/mkdirs.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/build/test/pico_stdlib_test/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject/RepositoryInfo.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject/cfgcmd.txt.in"
+		},
+		{
+			"path" : "test/pico_stdio_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/pico_time_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/pico_divider_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/pico_float_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/kitchen_sink/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/hardware_irq_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/hardware_pwm_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/cmsis_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "test/pico_sem_test/CMakeLists.txt"
+		},
+		{
+			"path" : "tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/ExternalProject.cmake"
+		},
+		{
+			"path" : "docs/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/FindDoxygen.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/build",
+		"source" : "/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/pico-sdk"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
