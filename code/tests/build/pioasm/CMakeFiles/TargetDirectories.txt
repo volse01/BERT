@@ -1,0 +1,3 @@
+/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/pioasm/CMakeFiles/pioasm.dir
+/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/pioasm/CMakeFiles/edit_cache.dir
+/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/pioasm/CMakeFiles/rebuild_cache.dir

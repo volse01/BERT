@@ -1,0 +1,1 @@
+cmd='/nix/store/jvcvx2kmln6iphr96y1mjgnjp15n2vz9-cmake-3.25.3/bin/cmake;-DCMAKE_MAKE_PROGRAM:FILEPATH=/run/current-system/sw/bin/make;-GUnix Makefiles;-C<TMP_DIR>/PioasmBuild-cache-$<CONFIG>.cmake;<SOURCE_DIR><SOURCE_SUBDIR>'

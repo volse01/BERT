@@ -855,6 +855,30 @@ home/volse/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/volse/pico-sdk/src/common/pico_util/queue.c.s
 
+home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+
+# target to build an object file
+home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -1543,30 +1567,6 @@ home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
-
-# target to build an object file
-home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-
-home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
-
-# target to preprocess a source file
-home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
-
-# target to generate assembly for a file
-home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_test.dir/build.make CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 .PHONY : home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
@@ -1807,6 +1807,9 @@ help:
 	@echo "... home/volse/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... home/volse/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... home/volse/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.s"
@@ -1893,9 +1896,6 @@ help:
 	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
 	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"

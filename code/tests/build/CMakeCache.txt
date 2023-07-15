@@ -496,7 +496,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=/home/volse/pico-sdk/src/rp2_common/boot_stage2
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=/home/volse/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=/home/volse/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=/run/current-system/sw/bin/arm-none-eabi-gcc
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /home/volse/pico-sdk/src/rp2_common/cmsis /home/volse/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /home/volse/pico-sdk/src/rp2_common/cmsis /home/volse/pico-sdk/src/rp2040/hardware_regs /home/volse/pico-sdk/src/rp2_common/cmsis /home/volse/pico-sdk/src/rp2040/hardware_regs /home/volse/pico-sdk/src/rp2_common/cmsis /home/volse/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= /home/volse/pico-sdk/src/common /home/volse/pico-sdk/lib/cyw43-driver/src /home/volse/pico-sdk/src/rp2_common /home/volse/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1
@@ -513,6 +513,8 @@ _Python3_EXECUTABLE:INTERNAL=/run/current-system/sw/bin/python3.11
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;4;32;;;/nix/store/d3q49jp0h57dzn4p9rydma2ybgmgazs3-python3-3.11.4/lib/python3.11;/nix/store/d3q49jp0h57dzn4p9rydma2ybgmgazs3-python3-3.11.4/lib/python3.11;/nix/store/g0g4449d1z7cysf1x24w1kzfrz2bswjn-python3-3.11.4-env/lib/python3.11/site-packages;/nix/store/g0g4449d1z7cysf1x24w1kzfrz2bswjn-python3-3.11.4-env/lib/python3.11/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=51912dd0962ddd598758c65eca8ce7c8
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

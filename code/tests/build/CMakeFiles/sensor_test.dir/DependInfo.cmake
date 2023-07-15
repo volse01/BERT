@@ -46,7 +46,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_RUNTIME=1"
   "LIB_PICO_STANDARD_LINK=1"
   "LIB_PICO_STDIO=1"
-  "LIB_PICO_STDIO_UART=1"
   "LIB_PICO_STDIO_USB=1"
   "LIB_PICO_STDLIB=1"
   "LIB_PICO_SYNC=1"
@@ -105,7 +104,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/volse/pico-sdk/src/rp2_common/pico_bootrom/include"
   "/home/volse/pico-sdk/src/common/pico_binary_info/include"
   "/home/volse/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/include"
   "/home/volse/pico-sdk/src/rp2_common/pico_unique_id/include"
   "/home/volse/pico-sdk/src/rp2_common/hardware_flash/include"
@@ -117,6 +115,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/volse/pico-sdk/lib/tinyusb/src/common"
   "/home/volse/pico-sdk/lib/tinyusb/hw"
   "/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+  "/home/volse/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -148,6 +147,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/volse/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "/home/volse/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "/home/volse/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
@@ -172,7 +172,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/volse/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
-  "/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d"
   "/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"

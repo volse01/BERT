@@ -688,24 +688,10 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/sensor_test.dir/flags.make
-CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -719,7 +705,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/res
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -733,7 +719,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/std
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -747,7 +733,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/std
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -761,7 +747,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_unique_id/uni
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -775,7 +761,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_flash/fla
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -789,7 +775,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberr
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -803,7 +789,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/portable/raspberr
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -817,7 +803,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd.c.s: 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -831,7 +817,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/device/usbd_contr
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -845,7 +831,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/audio/audio
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -859,7 +845,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/cdc/cdc_dev
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -873,7 +859,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_dev
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -887,7 +873,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -901,7 +887,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/hid/hid_dev
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -915,7 +901,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/midi/midi_d
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -929,7 +915,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/msc/msc_dev
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -943,7 +929,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ecm_rnd
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -957,7 +943,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/net/ncm_dev
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -971,7 +957,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/usbtmc/usbt
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -985,7 +971,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/vendor/vend
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -999,7 +985,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1013,7 +999,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_f
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1027,7 +1013,7 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/sensor_test.dir/flags.make
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1037,6 +1023,20 @@ CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_us
 CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/sensor_test.dir/flags.make
+CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/sensor_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/volse/Nextcloud/Alles_nur_geCloud/Kreationen/Volse/BERT/code/tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/run/current-system/sw/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target sensor_test
 sensor_test_OBJECTS = \
@@ -1085,7 +1085,6 @@ sensor_test_OBJECTS = \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
@@ -1109,7 +1108,8 @@ sensor_test_OBJECTS = \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+"CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target sensor_test
 sensor_test_EXTERNAL_OBJECTS =
@@ -1159,7 +1159,6 @@ sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/p
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -1184,6 +1183,7 @@ sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/tusb.c.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+sensor_test.elf: CMakeFiles/sensor_test.dir/home/volse/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 sensor_test.elf: CMakeFiles/sensor_test.dir/build.make
 sensor_test.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 sensor_test.elf: CMakeFiles/sensor_test.dir/link.txt
