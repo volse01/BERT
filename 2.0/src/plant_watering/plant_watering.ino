@@ -1,19 +1,19 @@
 
 // CONNECTIONS:
-// DS1302 CLK/SCLK --> 5
-// DS1302 DAT/IO --> 4
-// DS1302 RST/CE --> 2
+// DS1302 CLK/SCLK --> 9
+// DS1302 DAT/IO --> 8
+// DS1302 RST/CE --> 10
 // DS1302 VCC --> 3.3v - 5v
 // DS1302 GND --> GND
 
 #include <RtcDS1302.h>
 
-ThreeWire myWire(4,5,2); // IO, SCLK, CE
+ThreeWire myWire(8,9,10); // IO, SCLK, CE
 RtcDS1302<ThreeWire> Rtc(myWire);
 
-const int pumpPins[] = {7, 8, 9};
+const int pumpPins[] = {3, 5, 6};
 
-const int mililiters = 200;
+const int miliseconds = 5000;
 
 void pump(int pin, unsigned long time) { // pump function 
 
@@ -23,8 +23,8 @@ void pump(int pin, unsigned long time) { // pump function
     return 0;
   }
   
-void water_plants(int mililiters){
-    int pumpTime = mililiters * factor; //in ms
+void water_plants(int pumpTime){
+
      for (int i = 0; i < 3; i++) {
       pump(pumpPins[i], pumpTime); //pumps will work after each other  
     }
@@ -115,9 +115,11 @@ void loop() {
     Serial.println();
 
     // Execute task at 10:16 AM
-    if (now.Hour() == 10 && now.Minute() == 16) 
+    if (now.Hour() == 10 && now.Minute() == 17) 
     {
-        water_plants(mililiters);
+        water_plants(miliseconds);
+        delay(2000);
+        water_plants(miliseconds);
         delay(60000); // Prevent multiple executions in the same minute
     }
 
