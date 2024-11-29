@@ -1,6 +1,6 @@
 const int buttonPin = 2;
 const int pumpPins[] = {3, 5, 6};
-const unsigned long pumpTime = 1000; //in ms
+const unsigned long pumpTime = 10000; //in ms
 
 
 
