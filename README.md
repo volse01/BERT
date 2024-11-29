@@ -4,6 +4,6 @@ This is the documentation of my little project, which should help to reduce the 
 
 ## Versions
 Due to some differences in the development approach, we have decided on a versioning of this project:
-[1.0](/1.0/Readme.md) with a Raspberry Pi Pico, in C, did not get past the testing stage.
-[2.0](/2.0/Readme.md) with an Arduino Uno, works without sensors, with RTC once a day
+- [1.0](/1.0/README.md) with a Raspberry Pi Pico, in C, did not get past the testing stage.
+- [2.0](/2.0/README.md) with an Arduino Uno, works without sensors, with RTC once a day
 
